@@ -2,6 +2,7 @@ package com.simpleplugins.simplegamemode;
 
 import com.simpleplugins.simplegamemode.commands.*;
 import com.simpleplugins.simplegamemode.config.MessagesConfig;
+import lombok.Getter;
 import org.bukkit.Bukkit;
 import org.bukkit.command.CommandMap;
 import org.bukkit.command.defaults.BukkitCommand;
@@ -22,6 +23,8 @@ import java.util.logging.Level;
 @Plugin(name = "SimpleGameMode", version = "1.0.1")
 public class SimpleGameMode extends JavaPlugin {
     private static SimpleGameMode instance;
+
+    @Getter
     private MessagesConfig messagesConfig;
 
     @Override
@@ -105,9 +108,5 @@ public class SimpleGameMode extends JavaPlugin {
 
     public static SimpleGameMode getInstance() {
         return instance;
-    }
-
-    public MessagesConfig getMessagesConfig() {
-        return messagesConfig;
     }
 }

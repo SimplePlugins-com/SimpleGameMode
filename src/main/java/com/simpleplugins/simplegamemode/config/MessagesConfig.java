@@ -11,18 +11,15 @@ import java.util.Map;
 
 public class MessagesConfig {
     private final Map<String,Object> values = new HashMap<>();
+
     private final Path path;
 
     public MessagesConfig() {
         path = SimpleGameMode.getInstance().getDataFolder().toPath().resolve("messages.json");
     }
 
-    public Map<String, Object> getValues() {
-        return values;
-    }
-
     public String getMessage(String path) {
-        return ((String) getValues().get(path)).replace("{Prefix}",(String) getValues().get("prefix"));
+        return ((String) values.get(path)).replace("{Prefix}",(String) values.get("prefix"));
     }
 
     public void reload() {
