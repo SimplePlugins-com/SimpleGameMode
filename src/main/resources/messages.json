@@ -1,0 +1,16 @@
+{
+  "prefix": "§7[§9§lSystem§7]",
+  "usage": "{Prefix} §7Use /§agm §7<§a0§7/§a1§7/§a2§7/§a3§7>",
+  "usage_other": "{Prefix} §7Use /§agm §7<§a0§7/§a1§7/§a2§7/§a3§7> §7<§aPlayer§7>",
+  "no_console": "{Prefix} §cYou have to be a Player!",
+  "no_permission": "{Prefix} §cYou do not have permission to use this command!",
+  "player_not_found": "{Prefix} §cThe specified player could not be found!",
+  "gamemode_creative": "{Prefix} §7You are now in gamemode §ecreative",
+  "gamemode_creative_other": "{Prefix} {Player} §7is now in gamemode §ecreative",
+  "gamemode_survival": "{Prefix} §7You are now in gamemode §esurvival",
+  "gamemode_survival_other": "{Prefix} {Player} §7is now in gamemode §esurvival",
+  "gamemode_adventure": "{Prefix} §7You are now in gamemode §eadventure",
+  "gamemode_adventure_other": "{Prefix} {Player} §7is now in gamemode §eadventure",
+  "gamemode_spectator": "{Prefix} §7You are now in gamemode §espectator",
+  "gamemode_spectator_other": "{Prefix} {Player} §7is now in gamemode §espectator"
+}

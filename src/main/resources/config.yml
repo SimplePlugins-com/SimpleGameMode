@@ -1,0 +1,46 @@
+#
+# Plugin made by SimplePlugins
+# https://www.spigotmc.org/resources/simplegamemode.114776/
+#
+# Further Resources:
+# https://www.spigotmc.org/members/simple-plugins.1956834/#resources
+#
+
+commands:
+  gm:
+    enabled: true
+    name: gm
+
+    aliases:
+      - gamemode
+
+    permission: "SimpleGameMode.command.gamemode"
+    permission-other: "SimpleGameMode.command.gamemode.other"
+
+  survival:
+    enabled: true
+    name: survival
+
+    permission: "SimpleGameMode.command.survival"
+
+  creative:
+    enabled: true
+    name: creative
+
+    permission: "SimpleGameMode.command.creative"
+
+  adventure:
+    enabled: true
+    name: adventure
+
+    permission: "SimpleGameMode.command.adventure"
+
+  spectator:
+    enabled: true
+    name: spectate
+
+    aliases:
+      - spectate
+      - spec
+
+    permission: "SimpleGameMode.command.spectator"
